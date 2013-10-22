@@ -8,7 +8,7 @@
 	/* $new_user = array(
 		'username' => 'isaac',
 		'lastname' => 'hernandez',
-		'password' => 'otrogay'
+		'password' => 'otrousuario'
 	); */
 
 /*
@@ -22,7 +22,7 @@
 	User::create(array(
 		'username' => $_POST['username'],
 		'lastname' => $_POST['lastname'],
-		'password' => md5($_POST['password'])
+		'password' => sha1($_POST['password'])
 	));
 
 
