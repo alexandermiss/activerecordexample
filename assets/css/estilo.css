@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url(../fonts/opensanscondensed.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans Condensed Bold';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans Condensed Bold'), local('OpenSans-CondensedBold'), url(../fonts/opensanscondensedbold.woff) format('woff');
+}
+
+/* -------------------------------------------------------------- */
+/* FAMILIA DE FUENTES */
+/* -------------------------------------------------------------- */
+
+body{
+    /* font-family: 'Open Sans Condensed', tahoma, sans-serif; */
+    font-family: tahoma, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.navbar-bg{
+  background-color: #9ab21f;
+  color: #000000;
+}
+
+/* --------------------------------------------------------------- */
+/* FORM LOGIN */
+/* --------------------------------------------------------------- */
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.alert-signup{
+  display: none;
+}
